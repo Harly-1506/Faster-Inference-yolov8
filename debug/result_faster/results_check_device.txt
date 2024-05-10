@@ -1,0 +1,1 @@
+{"device": "phone", "confidence": 0.9205898642539978}

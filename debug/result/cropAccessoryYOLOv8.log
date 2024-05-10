@@ -1,0 +1,30 @@
+[2024-05-10 21:23:56,214] [INFO] --------------- Start cropped image accessory -----------------
+[2024-05-10 21:23:56,214] [INFO] Time load libraries: 7.4224889278411865 
+[2024-05-10 21:23:57,759] [INFO] Successfully loaded IR model
+[2024-05-10 21:23:57,760] [INFO] [INFO] Time to load model: 1.5450589656829834
+[2024-05-10 21:23:58,851] [INFO] [INFO] Model output shape: boxes: (1, 40, 8400), masks: (1, 32, 160, 160)
+[2024-05-10 21:23:58,977] [INFO] [INFO] Class id: phone, Scores: 0.9205898642539978
+[2024-05-10 21:23:58,984] [INFO] Processing mask 0
+[2024-05-10 21:23:58,984] [INFO] Mask shape: (724, 2)
+[2024-05-10 21:23:58,995] [INFO] Bounding box coordinates: x=186, y=149, w=769, h=1035
+[2024-05-10 21:23:59,051] [INFO] [INFO] Saving image_mask_debug to ./debug/result\image_with_masks.jpg
+[2024-05-10 21:23:59,134] [INFO] [INFO] Saving image_bbox_debug to ./debug/result\image_with_bbox.jpg
+[2024-05-10 21:23:59,183] [INFO] [INFO] Phone detected in the image.
+[2024-05-10 21:23:59,183] [INFO] [INFOR] Time taken: 10.392009973526001
+[2024-05-10 21:23:59,184] [INFO] [INFOR] Time taken: 10.39300799369812
+[2024-05-10 21:23:59,184] [INFO] --------------- Processing completed successfully.---------------
+[2024-05-10 21:24:05,809] [INFO] --------------- Start cropped image accessory -----------------
+[2024-05-10 21:24:05,809] [INFO] Time load libraries: 3.0792629718780518 
+[2024-05-10 21:24:06,331] [INFO] Successfully loaded IR model
+[2024-05-10 21:24:06,331] [INFO] [INFO] Time to load model: 0.5221536159515381
+[2024-05-10 21:24:06,853] [INFO] [INFO] Model output shape: boxes: (1, 40, 8400), masks: (1, 32, 160, 160)
+[2024-05-10 21:24:06,862] [INFO] [INFO] Class id: phone, Scores: 0.9205898642539978
+[2024-05-10 21:24:06,865] [INFO] Processing mask 0
+[2024-05-10 21:24:06,865] [INFO] Mask shape: (724, 2)
+[2024-05-10 21:24:06,870] [INFO] Bounding box coordinates: x=186, y=149, w=769, h=1035
+[2024-05-10 21:24:06,893] [INFO] [INFO] Saving image_mask_debug to ./debug/result\image_with_masks.jpg
+[2024-05-10 21:24:06,968] [INFO] [INFO] Saving image_bbox_debug to ./debug/result\image_with_bbox.jpg
+[2024-05-10 21:24:07,020] [INFO] [INFO] Phone detected in the image.
+[2024-05-10 21:24:07,020] [INFO] [INFOR] Time taken: 4.2901318073272705
+[2024-05-10 21:24:07,021] [INFO] [INFOR] Time taken: 4.2901318073272705
+[2024-05-10 21:24:07,021] [INFO] --------------- Processing completed successfully.---------------
