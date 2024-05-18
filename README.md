@@ -21,11 +21,11 @@ pip install -r requirements.txt
 ```
 - Inference yolov8
 ```python
-python main.py --image_path=="/image_test/IMG_0812.JPG" --model_path="/best_openvino_model/openvino_model_yolov8.xml" --output_path=="/debug/result"
+python main.py --image_path="image_test/IMG_0812.JPG" --model_path="best_openvino_model/openvino_model_yolov8.xml" --output_path="debug/result"
 ```
 - Inference yolov8 faster
 ```python
-python main_faster.py --image_path=="/image_test/IMG_0812.JPG" --model_path="/best_openvino_model/openvino_model_yolov8.xml" --output_path=="/debug/result_faster"
+python main_faster.py --image_path="image_test/IMG_0812.JPG" --model_path="best_openvino_model/openvino_model_yolov8.xml" --output_path="debug/result_faster"
 ```
 ## Results
 - Inference time
@@ -74,7 +74,7 @@ yolo task=detect mode=train epochs=200 data=./datasets/data.yaml model=yolov8x.p
 ```
 #### 5. Export openvino format
 ```python
-python export_model.py --model-path ./best_openvino_model/best.pt
+python export_model.py --model-path="best_openvino_model/best.pt"
 ```
 - Then custom the code in this repo and using for your project
 
