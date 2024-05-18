@@ -248,7 +248,5 @@ if __name__ == "__main__":
     parser.add_argument("--output_image", type=str, default="result.jpg")
     args = parser.parse_args() 
 
-    
-    detectCropMirror = YOLOv8DetectorSegmenter(args.model_path, cls_names = ["airpod", "appleW", "netgrear", "phone"], threshold= 0.8, output_path=args.output_path)
-
-    detectCropMirror.main(args.image_path, args.output_image)
+    model_faster = YOLOv8DetectorSegmenter(args.model_path, cls_names = ["airpod", "appleW", "netgrear", "phone"], threshold= 0.8, output_path=args.output_path)
+    model_faster.main(args.image_path, args.output_image)
