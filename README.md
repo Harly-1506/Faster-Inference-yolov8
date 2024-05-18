@@ -72,6 +72,10 @@ yolo task=segment mode=train epochs=200 data=./datasets/data.yaml model=yolov8x-
 #object
 yolo task=detect mode=train epochs=200 data=./datasets/data.yaml model=yolov8x.pt imgsz=640 batch=16 patience=0 device=0
 ```
+#### 5. Export openvino format
+```python
+python export_model.py --model-path ./best_openvino_model/best.pt
+```
 - Then custom the code in this repo and using for your project
 
 
