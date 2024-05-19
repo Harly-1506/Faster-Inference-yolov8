@@ -63,7 +63,7 @@ conda activate openvino_dev
 ```
 #### 3. Modifly this config 
    
- - /home/greystone/.config/Ultralytics/settings.yaml
+ - /home/harly/.config/Ultralytics/settings.yaml
    
 #### 4. Run command
 ```python
