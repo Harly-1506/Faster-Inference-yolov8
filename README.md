@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this repository, I offer improved inference speed utilizing Yolov8 with CPU, utilizing the power of [OpenVINO](https://github.com/openvinotoolkit/openvino) and [NumPy](https://numpy.org), across both **Object Detection** and **Segmentation** tasks. This enhancement aims to minimize prediction time while upholding high-quality results. Additionally, I'm writing a blog explaining how it works in the industry as well as the code.
+In this repository, I offer improved inference speed utilizing Yolov8 with CPU, utilizing the power of [OpenVINO](https://github.com/openvinotoolkit/openvino) and [NumPy](https://numpy.org), across both **Object Detection** and **Segmentation** tasks. This enhancement aims to minimize prediction time while upholding high-quality results. Additionally, I wrote a [blog](https://harlystudy.com/faster-inference-yolov8-for-object-detection-and-segmentation) explaining how it works in the industry as well as the code.
 
 Below, you'll find a quickstart guide for installation and usage. Following that, adapt the source code to align with your project requirements.
 
