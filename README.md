@@ -37,11 +37,11 @@ python main_faster.py --image_path="image_test/IMG_0812.JPG" --model_path="best_
  
 - Segmentation result
 
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/Harly-1506/Faster-Inference-yolov8/main/debug/result_faster/image_with_masks.jpg?token=GHSAT0AAAAAAB4F4XQWNYF25ZJ5SBKLBRTQZSIPCWA" width="383" height="424"> 
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/Harly-1506/Faster-Inference-yolov8/refs/heads/main/debug/result_faster/image_with_masks.jpg" width="383" height="424"> 
  
 - Object detection result
 
-<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/Harly-1506/Faster-Inference-yolov8/main/debug/result_faster/image_with_bbox.jpg?token=GHSAT0AAAAAAB4F4XQWFZSRFOJWDLWQ3HQ2ZSIPHWQ" width="383" height="424">
+<img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://raw.githubusercontent.com/Harly-1506/Faster-Inference-yolov8/main/debug/result_faster/image_with_bbox.jpg" width="383" height="424">
 
 ## Train your model
 Visit the [Ultralytics Quickstart Guide](https://docs.ultralytics.com/quickstart/) to learn how to quickly set up and start using Ultralytics YOLO models. This comprehensive guide covers installation, basic commands, and key functionalities to help you get started with YOLOv8 for various applications. Or follow my step below
